@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>JavaScript Anonymous function</h1>
+  <p>Anonymous function allow the creation of function which have no specified name</p>
+
+  <script>
+  //Returing Anonymous function;
+  function disp(a){
+    return function(b){
+      return a+b;
+    };
+  }
+  var af=disp(10);
+  document.write(af(20));
+//*************************************
+function myFunction(b)
+{
+  b();
+}
+
+var b = function() {,                ``````````````````````````  `a`
+  alert("as a parameter")
+}
+myFunction(b);
+
+  </script>
+</body>
+</html>

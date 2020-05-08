@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>JavaScript Method</h1>
+  <p>JavaScript object method</p>
+  <p id="demo"></p>
+  <script>
+  var myobject = {
+    firstname:"john",
+    lastname:"doe",
+    fullname: function() {
+      return this.firstname + " " + this.lastname;
+    }
+  }
+  document.getElementById("demo").innerHTML = myobject.fullname();
+  </script>
+</body>
+</html>
